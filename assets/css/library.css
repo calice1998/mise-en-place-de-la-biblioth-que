@@ -1,0 +1,23 @@
+.library-item {
+    width: 400px;
+}
+
+.library-item .library-video-poster img {
+    width: 100%;
+    border-radius: 20px;
+}
+.video-title {
+    font-weight: bold;
+}
+
+.owner-video-fullname {
+    color: gray;
+}
+.owner-video-fullname:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.video-meta-views::after {
+    content:" .  ";
+}
